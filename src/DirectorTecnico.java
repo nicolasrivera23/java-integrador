@@ -20,5 +20,10 @@ public class DirectorTecnico extends Persona {
         }
         return mensaje;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
     
 }

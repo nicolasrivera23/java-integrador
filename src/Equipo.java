@@ -24,6 +24,11 @@ public class Equipo {
         this.directorTecnico = directorTecnico;
     }
 
+    //obtener Jugador
+    public void obtenerJugador(int n) {
+        System.out.println(jugadores.get(n));
+    }
+
     //editar jugador
     public void editarJugador(int i, Jugador j) {
         this.jugadores.set(i, j);
